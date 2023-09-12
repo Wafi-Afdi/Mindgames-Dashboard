@@ -13,9 +13,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-[#262626] text-[#f5f5f5]">
-        <div className='flex flex-row'>
+        <div className='flex flex-row h-full'>
           <Navbar />
-          <div className='ml-[298px] w-full'>
+          <div className='ml-[298px] w-full min-h-screen'>
           {children}
           </div>
         </div> 
