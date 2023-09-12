@@ -15,7 +15,9 @@ export default function RootLayout({ children }) {
       <body className="bg-[#262626] text-[#f5f5f5]">
         <div className='flex flex-row'>
           <Navbar />
+          <div className='ml-[298px] w-full'>
           {children}
+          </div>
         </div> 
       </body>
     </html>

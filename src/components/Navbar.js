@@ -6,7 +6,7 @@ import {IoNotificationsSharp } from "react-icons/io5";
 
 function Navbar() {
   return (
-    <nav className='max-w-[300px] w-full h-screen border-r-2 border-[#404040] flex items-center flex-col py-[50px]'>
+    <nav className='max-w-[300px] w-full h-screen border-r-2 border-[#404040] flex items-center flex-col py-[50px] fixed'>
         <div className='w-full px-[30px]'>
             <h1 className='text-[36px] font-bold'>
                 MINDGAMES
