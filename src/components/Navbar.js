@@ -18,19 +18,19 @@ function Navbar() {
                     </h2>
                     <div className='h-[2px] max-w-[353px] w-full bg-[#404040] mt-2'/>
                     <div className='grid-cols-1 w-full mt-[20px] gap-y-[15px] grid text-[20px]'>
-                        <a className='flex gap-4 items-center'>
+                        <a className='flex gap-4 items-center cursor-pointer '>
                             <BsFillGrid3X3GapFill className='w-[20px] h-[20px]'/>
                             <p>Dashboard</p>
                         </a>
-                        <a className='flex gap-4 items-center'>
+                        <a className='flex gap-4 items-center cursor-pointer'>
                             <FaBookMedical className='w-[20px] h-[20px]'/>
                             <p>Medical History</p>
                         </a>
-                        <a className='flex gap-4 items-center'>
+                        <a className='flex gap-4 items-center cursor-pointer'>
                             <BsGraphUp className='w-[20px] h-[20px]'/>
                             <p>Analytic</p>
                         </a>
-                        <a className='flex gap-4 items-center'>
+                        <a className='flex gap-4 items-center cursor-pointer'>
                             <IoNotificationsSharp className='w-[20px] h-[20px]'/>
                             <p>Notification</p>
                         </a>
@@ -42,11 +42,11 @@ function Navbar() {
                     </h2>
                     <div className='h-[2px] max-w-[353px] w-full bg-[#404040] mt-2'/>
                     <div className='grid-cols-1 w-full mt-[10px] gap-y-[15px] grid text-[20px]'>
-                        <a className='flex gap-4 items-center'>
+                        <a className='flex gap-4 items-center cursor-pointer'>
                             <BsPersonFill className='w-[20px] h-[20px]'/>
                             <p>Profile</p>
                         </a>
-                        <a className='flex gap-4 items-center'>
+                        <a className='flex gap-4 items-center cursor-pointer'>
                             <BsFillGearFill className='w-[20px] h-[20px]'/>
                             <p>Settings</p>
                         </a>
@@ -58,7 +58,7 @@ function Navbar() {
                     </h2>
                     <div className='h-[2px] max-w-[353px] w-full bg-[#404040] mt-2'/>
                     <div className='grid-cols-1 w-full mt-[10px] gap-y-[5px] grid text-[20px]'>
-                    <a className='flex gap-4 items-center'>
+                    <a className='flex gap-4 items-center cursor-pointer'>
                             <BsFillQuestionCircleFill className='w-[20px] h-[20px]'/>
                             <p>Help & Support</p>
                         </a>
